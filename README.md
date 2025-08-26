@@ -35,47 +35,35 @@ Django Templating Engine
 
 SQLite3 (default, can be switched to MySQL/PostgreSQL)
 
-📂 Project Structure
-Ecommerce-django-and-javascript/
-│── shop/                # Main Django app
-│   ├── templates/       # HTML templates
-│   ├── static/          # Static files (CSS, JS, images)
-│   ├── views.py         # Views & business logic
-│   ├── urls.py          # URL routes
-│   └── models.py        # Database models
-│
-│── static/              # Project-wide static files
-│── db.sqlite3           # Default database
-│── manage.py            # Django project manager
-└── README.md            # Project documentation
-
 ⚙️ Installation & Setup
-1. Clone the Repository
+Clone the Repository
+ 
 git clone https://github.com/Rushendrababu001/Ecommerce-django-and-javascript.git
+
 cd Ecommerce-django-and-javascript
 
-2. Create Virtual Environment & Install Dependencies
+Create Virtual Environment & Install Dependencies
+
 python -m venv venv
+
 venv\Scripts\activate    # On Windows
+
 source venv/bin/activate # On Mac/Linux
 
 pip install -r requirements.txt
 
-3. Run Database Migrations
+Run Database Migrations
+
 python manage.py migrate
 
-4. Create Superuser (Admin)
+Create Superuser (Admin)
+
 python manage.py createsuperuser
 
-5. Start Development Server
+Start Development Server
+
 python manage.py runserver
 
-
-Visit 👉 http://127.0.0.1:8000/
-
-📸 Screenshots (Optional)
-
-Add some screenshots of your project UI here.
 
 📌 Future Enhancements
 
@@ -92,3 +80,4 @@ REST API with Django Rest Framework
 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+ 
